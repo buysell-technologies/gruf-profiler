@@ -27,7 +27,7 @@ module Gruf
     #     c.interceptors[Gruf::Profiler::Interceptor] = {}
     #   end
     #
-    class Interceptor < Gruf::Interceptors::ServerInterceptor
+    class Interceptor < ::Gruf::Interceptors::ServerInterceptor
       ##
       # Wraps the entire gruf call and provides memory reports
       #
