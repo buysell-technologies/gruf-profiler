@@ -41,6 +41,7 @@ module Gruf
         else
           log('Memory profiler did not return a report')
         end
+        GC.start
         result
       end
 
